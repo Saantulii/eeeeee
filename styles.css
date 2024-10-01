@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: auto;
+}
+
+.header{
+    height: 90px;
+    background-color: black;
+}
+
+.img-EESTN2{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 60px;
+    height: 60px;
+}
+
+.img-EESTN2:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+h1{
+    font-family:'Courier New';
+    color: white;
+    background-color: transparent;
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    width: 500px;
+    margin-top: -60px;
+    margin-left: 25px;
+    border: none;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Inicio-sesion{
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    margin-right: 200px;
+    margin-top: -65px;
+}
+
+.Inicio-sesion:hover{
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+.nav-btn{
+    display: flex; /* Usar flexbox para los botones */
+    justify-content: space-between; /* Espacio entre los botones */
+    align-items: center; /* Centrar verticalmente */
+    background-color: black; /* Fondo de la barra de navegación */
+    padding: 10px; /* Espaciado interno */
+    border: none;
+}
+
+.menu-nav-list li button a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-nav-list li button a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9,
+.btn10{
+    background-color: transparent;
+    color: white;
+    margin: 5px 5px; /* Espaciado horizontal entre botones */
+    padding: 10px 15px; /* Espaciado interno para los botones */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.btn4:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn5:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn6:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn7:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn8:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn9:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+.btn10:hover{
+    color: black;
+    border: none;
+    background-color: aquamarine;
+}
+
+.article-container {
+    position: relative; /* Permite posicionar elementos dentro del artículo */
+    width: 100%; /* Ancho del contenedor */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+}
+
+.article-container img {
+    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.p-bienvenido {
+    font-size: 30px;
+    position: absolute; /* Posiciona el texto de manera absoluta */
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde la izquierda */
+    color: white; /* Color del texto */
+    background-color: none; /* Fondo semitransparente para el texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
