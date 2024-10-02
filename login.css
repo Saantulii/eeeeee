@@ -17,7 +17,7 @@ body{
     /* Ancho del cuerpo */
     width: 100%; 
     /* Altura del cuerpo */
-    height: 100vh; 
+    height: auto; 
     /* Disposición en flexbox */
     display: flex; 
     /* Centrar contenido horizontalmente */
@@ -25,13 +25,26 @@ body{
     /* Centrar contenido verticalmente */
     align-items:center; 
     /* Color de fondo del cuerpo*/
-    background-color: red;
+    background-color: black;
+}
+
+.img-EESTN2{
+    border: none;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 350px;
 }
 
 /* Estilos para el contenedor principal */
 .container{ 
+
+    margin-top: 3%;
+
+    margin-left: 3%;
+
     /* Borde negro para el contenedor */
-    border: 2px solid black; 
+    border: none; 
     /* Ancho del contenedor */
     width: 800px; 
     /* Altura del contenedor */

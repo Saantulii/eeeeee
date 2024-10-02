@@ -36,7 +36,7 @@ h1{
     height: auto;
     width: 500px;
     margin-top: -60px;
-    margin-left: 25px;
+    margin-left: 80px;
     border: none;
 }
 
@@ -130,27 +130,4 @@ h1{
     color: black;
     border: none;
     background-color: aquamarine;
-}
-
-.article-container {
-    position: relative; /* Permite posicionar elementos dentro del artículo */
-    width: 100%; /* Ancho del contenedor */
-    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
-}
-
-.article-container img {
-    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-}
-
-.p-bienvenido {
-    font-size: 30px;
-    position: absolute; /* Posiciona el texto de manera absoluta */
-    top: 20px; /* Ajusta la distancia desde la parte superior */
-    left: 20px; /* Ajusta la distancia desde la izquierda */
-    right: 20px;
-    color: white; /* Color del texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
 }
